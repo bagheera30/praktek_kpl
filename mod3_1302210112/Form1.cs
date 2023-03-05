@@ -16,5 +16,10 @@ namespace mod3_1302210112
         {
             InitializeComponent();
         }
+
+        private void button1_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.label1.Text="hallo"+this.textBox11.Text;
+        }
     }
 }
